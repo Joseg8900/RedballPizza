@@ -1,0 +1,118 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Jose Guzman-Vargas
+    Date: 2-19-22
+    File: other.css
+ */
+
+header img{
+    width: 100%;
+
+}
+
+nav.horizontal{
+    display: flex;
+    align-items: center;
+}
+
+nav.vertical{
+    border-right: 5px solid rgba(154,20,23,1.00);
+    background-image: url('parlor.jpg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav.vertical li{
+    display: flex;
+    background: linear-gradient(to right, rgba(154,20,23,1.00),
+                rgba(255, 0, 0, 0));
+    border-radius: 10px;
+
+    justify-content: left;
+
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+nav.vertical a{
+    color: white;
+    padding: 4px;
+}
+
+nav.vertical ul{
+    margin-left: 20px;
+}
+
+main article{
+    padding: 20px 20px 0;
+    font-size: 20px;
+}
+
+#deals{
+    margin: 20px;
+}
+
+#deals div{
+    align-content: flex-start;
+    border: 3px dashed rgba(154,20,23,1.00);
+    margin: 10px;
+}
+
+#deals div:nth-child(odd){
+    background-color: rgba(255, 155, 155, 0.7);
+}
+
+#deals h1{
+    padding: 5px;
+}
+
+#deals p{
+    padding: 10px 10px 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#deals p:nth-child(even){
+    font-size: 12px;
+
+}
+
+#deals p:first-of-type{
+    font-size: 15px;
+    text-align: center;
+}
+
+#deals p:nth-child(odd){
+    font-weight: bold;
+    text-align: center;
+}
+
+#deals p:last-of-type{
+    text-align: right;
+}
+
+aside{
+    border-left: 5px solid rgba(154,20,23,1.0);
+    padding: 10px;
+    background-image: url('parlor.jpg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+aside h1{
+    font-weight: bold;
+}
+
+aside ul li{
+    border: 2px solid rgba(154,20,23,1.00);
+    background: linear-gradient(to right, #a5a5c6, #e26060);
+    border-radius: 10px;
+    margin: 7px;
+    padding: 5px;
+}
